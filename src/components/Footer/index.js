@@ -32,7 +32,7 @@ function Footer() {
             </FooterTitle>
             <FooterLinksWrapper>
               <FooterLink>
-                  <Mailto email="hvk@kirbys.org" subject="" body="">
+                  <Mailto email="hannahkir8y@gmail.com" subject="" body="">
                     <AiOutlineMail color = 'white'/>
                   </Mailto>
               </FooterLink>
