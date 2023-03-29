@@ -16,7 +16,7 @@ const [repos, setRepos] = useState();
   fetch(`https://api.github.com/users/hannahvkirby/repos`)
       .then((response) => response.json())
       .then((data) => {setRepos(data)
-      console.log(data)});
+      });
   }, []);
 
   // pull name of each repository from list of objects
@@ -26,7 +26,6 @@ const [repos, setRepos] = useState();
                 {return repoObject.name}) 
               : ["Failed to load repository"]
 
-  console.log(initRepoNames)
   
   //get total number of repositories  
   const numRepos = initRepoNames.length
